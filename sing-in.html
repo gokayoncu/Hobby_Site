@@ -1,0 +1,72 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+            
+    </head>
+    <body>
+        <header class="hdr">
+            <h1>Hunters</h1>
+            <figure>
+                <img class="header-img" src="logo/pngwing.com.png" alt="logo">
+            </figure>
+        </header>
+        <!-- Menu -->
+        <nav class="menu">
+            <div>
+                <a class="firstmenu" href="index.html">Ana Sayfa</a>
+                <a class="firstmenu" href="about-us.html">Hakkımızda</a>
+                <a class="firstmenu" href="">Av Tüfekleri</a>
+                <a class="firstmenu" href="sing-in.html">Kayıt Ol</a>
+                <a class="firstmenu" href="contact.html">İletişim</a>
+            <!-- sociel media button -->
+                
+                <button class="fa-brands fa-youtube" id="ytb" >Youtube</button>
+                <button class="fa-brands fa-instagram" id="ins" aria-hidden="true" >İnstagram</button>
+                <button class="fa-brands fa-x-twitter" id="x" ></button>
+            
+            </div>
+        </nav>
+        <!-- Form -->
+        <article class="sing-in">
+            <form action="index.html">
+                <label for="name">Ad:</label><br>
+                <input class="txt" type="text" id="name"><br>
+                <label for="surname">Soyad:</label><br>
+                <input class="txt" type="text" id="surname"></label><br>
+                <!-- Password -->
+                <label for="pwd">Şifre Giriniz</label><br>
+                <input class="txt" type="password" name="password" id="password" required ><br>
+                <!-- Email -->
+                <label for="e-mail">E-mail</label><br>
+                <input class="txt" type="email" name="E-mail" id="email" required><br><br>
+                <!-- radio -->
+                <label for="gender-choose">Cinsiyetiniz :</label>
+                <label for="Male">Erkek</label>
+                <input type="radio" id="gender" name="Gender" value="male">
+                <label for="Female">Kadın</label>
+                <input type="radio" name="Gender" value="Female"><br><br>
+                
+                <!-- checkbox input -->
+                <label class="lbl" >
+                    <input type="checkbox" required>
+                    <div class="checkbox">
+                        <span class="check-btn"></span>
+                    </div>
+                    Kayıt Olmak İçin Sözleşmesini Onaylayın
+                </label><br>
+                <!-- Submit Button -->
+                <input type="submit" value="Gönder" id="sub">
+                <!--Reset Button-->
+                <input type="reset" name="reset" id="sub">
+            </form>
+        </article>
+    </body>
+    </html>
